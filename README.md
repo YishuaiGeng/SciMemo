@@ -53,7 +53,7 @@ SciMemo 是给同时推进好几篇论文的研究者用的个人手账。它记
 | 领域规则、读模型、错误分类 | ✅ 141 项测试通过 |
 | 可选自托管同步（FastAPI） | ✅ 58 项后端测试；真实 HTTP 往返、冲突、删除、丢失确认重放通过 |
 | macOS 桌面端（Tauri） | ✅ arm64 已编译并启动窗口；6 项原生 SQLite 测试覆盖重启持久化与事务回滚 |
-| Windows 桌面端 | ⏳ 已配置 CI 编译检查，尚未编译通过 |
+| Windows 桌面端 | ✅ GitHub Actions 编译通过，6 项原生存储测试通过；尚未启动过窗口 |
 | 窗口内端到端操作、安装包、签名 | ⏳ 尚未验证 |
 | 手机 | ⏳ 计划先做可安装的网页版，再视实际使用决定是否做原生 App |
 | 附件、系统通知、端到端加密 | ❌ 未实现 |
@@ -147,7 +147,7 @@ docs/            架构、数据模型、协议、决策记录、验证报告
 
 It is deliberately *not* a reference manager, a lab dashboard, or an AI writing tool. No account, server, or internet connection is required; optional sync runs on a server you host yourself.
 
-The project is in early development (0.1.0-dev). The browser preview and the macOS desktop build run; Windows builds, signed installers, and mobile apps are not available yet. The UI is currently in Chinese.
+The project is in early development (0.1.0-dev). The browser preview and the macOS desktop build run; Windows compiles and passes native storage tests in CI. Signed installers and mobile apps are not available yet. The UI is currently in Chinese.
 
 ## 许可证
 

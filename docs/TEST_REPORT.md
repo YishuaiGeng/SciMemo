@@ -139,10 +139,26 @@ PASS: real HTTP roundtrip, conflict, deletion, lost-ack replay and byte-limited 
 
 **仍未验证**：
 
-- **Windows**：本机无法编译，`native-check.yml` 已加入 `cargo test --locked`，但仓库无 `.git`，CI 从未运行。
+- **Windows**：第五轮已由 CI 编译并通过 6 项原生测试；窗口与交互未验证。
 - **桌面 UI 交互**：窗口启动了，但没有在窗口里实际点击录入、退出、重开。重启持久化只在 Rust 存储层验证，**不是端到端验证**。
 - 外链与导出对话框未在窗口中实际点击。
 - 安装包构建（`desktop:build`）、签名、公证均未执行。
+
+## 第五轮：首次远程 CI（GitHub Actions）
+
+代码首次推送到 `github.com/YishuaiGeng/SciMemo`，CI 首次实际运行：
+
+| 工作流 | 平台 | 结果 | 运行 |
+|---|---|---|---|
+| Core and web checks（类型、测试、构建、后端、HTTP 集成） | ubuntu-latest + Node 22 + Python 3.13 | ✅ 通过 | [38406358475](https://github.com/YishuaiGeng/SciMemo/actions/runs/38406358475) |
+| Native compile check（`cargo check --locked` + `cargo test --locked`） | **windows-latest** | ✅ 通过，5 分 23 秒，6 / 6 原生存储测试 | [38406421552](https://github.com/YishuaiGeng/SciMemo/actions/runs/38406421552) |
+| 同上 | macos-latest | ✅ 通过，3 分 21 秒，6 / 6 | 同上 |
+
+这是 **Windows 端的第一次编译**，也是 **Node 22 / Linux 环境的第一次验证**（此前只在本机 Node 25 上执行）。
+
+CI 提示 `actions/checkout@v4`、`actions/setup-node@v4` 面向的 Node 20 运行时已弃用，目前被强制运行在 Node 24 上；需要后续升级 action 版本。
+
+**Windows 仍未验证的**：窗口启动、WebView2 运行、真实交互、安装包。CI 只证明了编译与存储层测试。
 
 ## 覆盖与边界
 
@@ -170,6 +186,6 @@ PASS: real HTTP roundtrip, conflict, deletion, lost-ack replay and byte-limited 
 | Android／iOS | ⛔ 未执行 |
 | Docker 镜像 | ⛔ 未执行 |
 
-根目录 `.venv` 非本轮使用环境。本轮未提交、推送或发布；目录仍不含 `.git`。
+根目录 `.venv` 非本轮使用环境。第五轮已提交并推送到 GitHub。
 
 清理了 3 个 `.DS_Store`（根、`design/`、`design/logo/`）与 2 个 `__pycache__`（`server/app/`、`server/tests/`）；`.gitignore` 已覆盖这些路径，清理是为了避免首次 `git init` 前误入。
