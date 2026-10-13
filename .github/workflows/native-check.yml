@@ -1,0 +1,29 @@
+# Manual check only. This is NOT a signing / release pipeline.
+name: Native compile check
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Rust
+        run: rustup toolchain install stable --profile minimal
+      - run: npm ci
+      - run: npm run build
+      - name: Check native code
+        working-directory: src-tauri
+        run: cargo +stable check --locked
+      # Real SQLite on disk: restart persistence, CAS conflict prefix, full rollback.
+      - name: Native storage tests
+        working-directory: src-tauri
+        run: cargo +stable test --locked

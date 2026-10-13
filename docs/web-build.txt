@@ -1,0 +1,15 @@
+
+> scimemo@0.1.0-dev build
+> tsc --noEmit && vite build
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 33 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.52 kB │ gzip:  0.38 kB
+dist/assets/index-DZrYR7bY.css   16.60 kB │ gzip:  4.39 kB
+dist/assets/core-CwxXejkd.js      0.09 kB │ gzip:  0.10 kB
+dist/assets/index-C3aSwH0l.js   285.84 kB │ gzip: 89.66 kB
+
+✓ built in 80ms

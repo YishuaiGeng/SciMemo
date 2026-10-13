@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1502" height="310" viewBox="99 800 751 155" stroke-linecap="round" stroke-linejoin="round">
+<title>SciMemo - English wordmark</title><desc>English-only SciMemo logo. Editable vector paths and gradients. Continuous tapered ribbon highlights and joined lower return; no embedded reference image.</desc>
+<defs>
+  <linearGradient id="navy" gradientUnits="userSpaceOnUse" x1="410" y1="171" x2="531" y2="756">
+    <stop stop-color="#155291" /><stop offset=".27" stop-color="#0B3569" />
+    <stop offset=".68" stop-color="#062855" /><stop offset="1" stop-color="#031E43" />
+  </linearGradient>
+  <radialGradient id="navyLight" gradientUnits="userSpaceOnUse" cx="464" cy="154" r="474" gradientTransform="translate(0 45) scale(1 .72)">
+    <stop stop-color="#1D69B0" stop-opacity=".32" /><stop offset="1" stop-color="#114D8F" stop-opacity="0" />
+  </radialGradient>
+  <linearGradient id="navyEdge" gradientUnits="userSpaceOnUse" x1="430" y1="169" x2="430" y2="756">
+    <stop stop-color="#42B7FF" stop-opacity=".65" /><stop offset=".12" stop-color="#1770B9" stop-opacity=".12" />
+    <stop offset="1" stop-color="#00204D" stop-opacity="0" />
+  </linearGradient>
+  <linearGradient id="backBlue" gradientUnits="userSpaceOnUse" x1="352" y1="405" x2="557" y2="244">
+    <stop stop-color="#004C9E" /><stop offset=".48" stop-color="#1285E9" /><stop offset="1" stop-color="#64D2F7" />
+  </linearGradient>
+  <linearGradient id="backEdge" gradientUnits="userSpaceOnUse" x1="332" y1="326" x2="569" y2="266">
+    <stop stop-color="#A4F4FF" /><stop offset=".55" stop-color="#7CE7FF" /><stop offset="1" stop-color="#B4F4FF" />
+  </linearGradient>
+  <linearGradient id="returnBlue" gradientUnits="userSpaceOnUse" x1="491" y1="583" x2="608" y2="706">
+    <stop stop-color="#002B64" /><stop offset=".46" stop-color="#003F8A" /><stop offset="1" stop-color="#047BCB" />
+  </linearGradient>
+  <linearGradient id="curlBlue" gradientUnits="userSpaceOnUse" x1="333" y1="580" x2="279" y2="649">
+    <stop stop-color="#087DCE" /><stop offset=".35" stop-color="#1C9DF1" /><stop offset="1" stop-color="#67D5F4" />
+  </linearGradient>
+  <linearGradient id="paper" gradientUnits="userSpaceOnUse" x1="423" y1="329" x2="516" y2="706">
+    <stop stop-color="#FFFEFA" /><stop offset=".57" stop-color="#FFFCF5" /><stop offset="1" stop-color="#FFF5E6" />
+  </linearGradient>
+  <linearGradient id="paperWarm" gradientUnits="userSpaceOnUse" x1="456" y1="494" x2="428" y2="610">
+    <stop stop-color="#D9AF7B" stop-opacity=".53" /><stop offset=".5" stop-color="#ECD3AF" stop-opacity=".25" />
+    <stop offset="1" stop-color="#FFF9EE" stop-opacity="0" />
+  </linearGradient>
+  <linearGradient id="ribbon" gradientUnits="userSpaceOnUse" x1="281" y1="402" x2="672" y2="550">
+    <stop stop-color="#80E6F6" /><stop offset=".2" stop-color="#47BEF7" />
+    <stop offset=".48" stop-color="#1D9DF2" /><stop offset=".77" stop-color="#1384E8" /><stop offset="1" stop-color="#28B6F4" />
+  </linearGradient>
+  <linearGradient id="ribbonRim" gradientUnits="userSpaceOnUse" x1="282" y1="370" x2="666" y2="537">
+    <stop stop-color="#BEFBFF" /><stop offset=".55" stop-color="#9DEDF7" /><stop offset="1" stop-color="#94E9F9" />
+  </linearGradient>
+  <linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="644" y1="246" x2="642" y2="334">
+    <stop stop-color="#FFDE78" /><stop offset=".5" stop-color="#FFCA51" /><stop offset="1" stop-color="#FFB536" />
+  </linearGradient>
+  <linearGradient id="goldDot" gradientUnits="userSpaceOnUse" x1="311" y1="810" x2="339" y2="841">
+    <stop stop-color="#FFCA54" /><stop offset="1" stop-color="#FFA419" />
+  </linearGradient>
+  <linearGradient id="ink" gradientUnits="userSpaceOnUse" x1="480" y1="360" x2="499" y2="420">
+    <stop stop-color="#072951" /><stop offset="1" stop-color="#001B43" />
+  </linearGradient>
+  <linearGradient id="blush" gradientUnits="userSpaceOnUse" x1="441" y1="421" x2="454" y2="445">
+    <stop stop-color="#FFD1B8" /><stop offset="1" stop-color="#FFBFA9" />
+  </linearGradient>
+  <linearGradient id="noteLine" gradientUnits="userSpaceOnUse" x1="408" y1="579" x2="501" y2="648">
+    <stop stop-color="#B2C9DE" /><stop offset="1" stop-color="#A9BED2" />
+  </linearGradient>
+  <linearGradient id="wordNavy" gradientUnits="userSpaceOnUse" x1="220" y1="810" x2="220" y2="945">
+    <stop stop-color="#082E5B" /><stop offset="1" stop-color="#001D48" />
+  </linearGradient>
+  <linearGradient id="wordBlue" gradientUnits="userSpaceOnUse" x1="580" y1="812" x2="580" y2="945">
+    <stop stop-color="#0796FA" /><stop offset="1" stop-color="#0071CC" />
+  </linearGradient>
+  <path id="tile" d="M333 171 C290 171 255 177 226 201 C191 229 176 267 176 318 L176 605 C176 659 191 699 222 726 C247 747 279 756 323 756 L615 756 C665 756 697 745 725 720 C754 694 766 658 766 610 L766 320 C766 268 754 234 725 207 C696 180 668 171 617 171 Z" />
+  <path id="paperShape" d="M391 352 L564 312 C592 306 615 321 623 348 L665 541 L664 586 L587 566 C602 593 597 620 583 640 C573 655 562 664 542 668 L376 699 C344 706 319 701 300 680 L279 630 L332 564 L313 494 L365 432 C348 428 339 410 349 385 C356 367 369 357 391 352 Z" />
+  <path id="frontRibbon" d="M318 302 C289 326 276 350 276 373 L276 436 C277 468 292 485 317 498 C355 518 410 531 465 545 C527 560 579 572 612 600 C638 622 649 647 639 668 C659 650 671 623 670 593 C668 559 655 534 632 516 C604 494 555 482 500 469 C443 456 394 446 360 429 C323 412 303 386 300 357 C297 332 303 316 318 302 Z" />
+  <clipPath id="tileClip"><use xlink:href="#tile" /></clipPath>
+  <clipPath id="paperClip"><use xlink:href="#paperShape" /></clipPath>
+</defs><g id="wordmark-S" data-name="wordmark-S"><path d="M136.36,884.78 C144.86,887.59 153.35,890.40 161.85,893.21 C177.82,898.49 179.04,913.11 161.07,916.05 C152.27,917.48 142.10,914.82 133.81,912.05 C130.67,911.01 119.91,904.81 117.72,905.22 C113.88,905.93 107.07,929.14 109.56,931.77 C112.73,935.13 119.19,936.61 123.39,938.14 C145.32,946.13 181.35,948.72 198.62,929.52 C204.64,922.83 207.87,914.39 207.87,905.39 C207.87,883.50 194.34,872.70 174.76,866.34 C168.31,864.23 161.85,862.13 155.39,860.03 C142.98,855.99 137.88,843.05 153.44,839.15 C164.06,836.49 175.05,839.93 185.10,843.20 C187.67,844.03 190.30,845.89 193.08,845.60 C195.18,845.39 196.04,843.44 196.56,841.67 C198.27,835.88 199.97,830.09 201.68,824.31 C204.21,815.73 174.33,811.61 168.43,810.82 C151.43,808.55 130.56,812.04 118.49,825.28 C99.36,846.25 110.75,876.31 136.36,884.78 Z" fill="url(#wordNavy)" fill-rule="evenodd" /></g><g id="wordmark-c" data-name="wordmark-c"><path d="M217.13,898.24 C217.09,928.93 243.78,947.82 272.81,944.13 C280.25,943.19 296.90,938.05 300.39,930.77 C301.68,928.08 291.63,911.59 288.60,911.66 C284.87,911.75 281.40,915.88 277.82,916.96 C263.58,921.24 245.72,915.56 245.38,898.28 C245.05,881.62 261.10,872.41 276.22,876.11 C279.83,877.00 285.53,881.34 288.52,881.34 C291.53,881.33 301.48,863.43 300.36,860.82 C297.04,853.12 276.11,848.88 268.62,848.88 C240.46,848.88 217.16,869.30 217.13,898.24 Z" fill="url(#wordNavy)" fill-rule="evenodd" /></g><g id="wordmark-i" data-name="wordmark-i"><path d="M312.28,857.32 C312.23,877.21 312.18,897.11 312.13,917.00 C312.11,922.20 311.10,934.76 312.48,939.10 C312.92,940.48 314.63,941.59 316.07,941.59 C322.22,941.60 328.37,941.61 334.52,941.62 C336.40,941.63 339.53,940.66 339.53,938.24 C339.53,910.81 339.54,883.39 339.54,855.97 C339.54,854.48 338.35,852.93 336.96,852.52 C334.23,851.71 316.89,851.51 314.59,852.63 C312.70,853.56 312.28,855.37 312.28,857.32 Z" fill="url(#wordNavy)" fill-rule="evenodd" /></g><g id="wordmark-M" data-name="wordmark-M"><path d="M360.38,818.13 C360.38,857.44 360.38,896.76 360.38,936.07 C360.38,938.77 361.84,941.62 364.94,941.61 C371.93,941.61 378.92,941.60 385.91,941.60 C389.08,941.60 390.62,938.47 390.62,935.72 C390.62,920.40 390.62,905.07 390.62,889.74 C390.62,888.55 389.41,866.51 392.83,872.87 C400.02,886.22 407.21,899.57 414.40,912.92 C415.20,914.39 415.97,916.06 417.56,916.82 C420.52,918.24 437.19,918.11 438.81,915.09 C446.33,901.04 453.84,887.00 461.36,872.95 C465.00,866.16 464.13,887.89 464.13,889.50 C464.13,902.05 464.03,914.65 463.88,927.17 C463.83,931.23 462.03,941.60 468.53,941.61 C475.52,941.61 482.51,941.61 489.51,941.62 C493.28,941.62 494.38,937.98 494.37,934.88 C494.37,896.07 494.37,857.25 494.37,818.44 C494.37,815.54 492.63,812.66 489.42,812.65 C481.93,812.65 474.44,812.64 466.95,812.63 C461.39,812.62 456.31,825.15 453.89,829.70 C445.74,844.98 437.59,860.27 429.44,875.55 C428.10,878.07 426.71,878.67 425.22,875.89 C415.00,856.80 404.77,837.72 394.55,818.63 C393.31,816.31 391.74,812.72 388.58,812.71 C380.76,812.69 372.95,812.67 365.13,812.65 C362.23,812.64 360.38,815.51 360.38,818.13 Z" fill="url(#wordBlue)" fill-rule="evenodd" /></g><g id="wordmark-e" data-name="wordmark-e"><path d="M533.38,903.88 C552.38,903.88 571.37,903.88 590.36,903.87 C601.52,903.87 592.39,876.16 589.59,870.89 C576.38,846.05 537.31,842.91 517.72,861.54 C509.08,869.75 504.96,880.39 503.58,892.02 C499.16,929.30 532.12,949.25 565.54,942.96 C573.32,941.49 583.75,937.56 589.31,931.63 C590.32,930.55 590.88,929.22 590.48,927.75 C589.80,925.26 581.80,913.91 579.53,913.16 C575.84,911.93 561.22,925.22 545.18,919.67 C540.06,917.91 535.94,914.91 533.13,910.22 C532.17,908.64 529.73,903.88 533.38,903.88 Z M565.98,887.12 C555.53,887.12 545.09,887.12 534.64,887.12 C526.52,887.12 537.44,871.88 550.51,871.88 C556.18,871.88 561.94,874.03 565.53,878.52 C566.93,880.27 570.75,887.12 565.98,887.12 Z" fill="url(#wordBlue)" fill-rule="evenodd" /></g><g id="wordmark-m" data-name="wordmark-m"><path d="M604.63,899.39 C604.63,911.22 604.63,923.05 604.63,934.88 C604.63,936.71 604.84,939.38 606.43,940.57 C608.63,942.24 627.28,942.31 629.63,940.77 C633.30,938.36 631.63,932.13 631.63,928.51 C631.63,916.18 631.63,903.85 631.63,891.52 C631.63,873.41 656.12,872.19 656.12,889.28 C656.12,904.94 656.12,920.61 656.13,936.27 C656.13,938.19 656.79,940.15 658.61,941.07 C661.02,942.28 677.66,942.26 680.17,941.12 C681.99,940.30 682.86,938.46 682.87,936.51 C682.93,920.04 682.99,903.57 683.06,887.10 C683.11,874.58 707.02,873.41 707.04,887.70 C707.07,904.02 707.10,920.34 707.13,936.66 C707.13,938.32 707.99,940.22 709.53,941.01 C712.02,942.29 728.81,942.33 731.34,941.09 C732.74,940.40 733.87,938.91 733.87,937.33 C733.87,917.50 733.86,897.68 733.86,877.85 C733.85,855.65 711.83,844.79 692.60,852.22 C688.48,853.82 684.26,856.87 681.50,860.32 C680.84,861.16 679.75,863.23 678.44,862.99 C676.08,862.56 670.95,850.11 655.03,850.13 C649.11,850.13 643.57,852.19 638.82,855.63 C637.66,856.47 633.86,861.13 632.55,860.72 C631.37,860.36 632.05,854.74 629.77,853.15 C626.93,851.17 607.67,851.35 605.62,854.22 C603.29,857.50 604.63,892.89 604.63,899.39 Z" fill="url(#wordBlue)" fill-rule="evenodd" /></g><g id="wordmark-o" data-name="wordmark-o"><path d="M741.63,896.60 C741.62,957.63 833.06,960.75 838.11,900.44 C838.78,892.41 836.94,885.01 833.98,877.67 C815.45,831.72 741.63,845.79 741.63,896.60 Z M768.88,897.02 C769.39,869.88 810.03,869.39 811.12,896.19 C812.29,924.90 768.34,925.63 768.88,897.02 Z" fill="url(#wordBlue)" fill-rule="evenodd" /></g><g id="wordmark-gold-dot" data-name="wordmark-gold-dot"><path d="M308.63,826.36 C308.61,847.67 341.92,848.62 343.12,827.49 C344.42,804.41 308.65,803.12 308.63,826.36 Z" fill="url(#goldDot)" fill-rule="evenodd" /></g></svg>

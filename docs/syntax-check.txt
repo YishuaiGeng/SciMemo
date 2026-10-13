@@ -1,0 +1,1 @@
+Syntax check: 14 TypeScript/TSX files; 0 errors. Not a full dependency-aware typecheck.

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220" fill="none" role="img" aria-labelledby="manuscripts-title">
+  <title id="manuscripts-title">Manuscripts — a page with a flowing ribbon</title>
+<g fill="none" stroke="#0B2D5B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="160" cy="194" rx="88" ry="8" fill="#EFF6FF" stroke="none"/>
+  <ellipse cx="160" cy="194" rx="61" ry="4" fill="#64C8FF" opacity="0.12" stroke="none"/>
+  <path d="M106 30H197L224 57V175Q224 184 215 184H106Q97 184 97 175V39Q97 30 106 30Z" fill="#FFF9EE"/>
+  <path d="M197 30V50Q197 57 204 57H224" fill="#EFF6FF"/>
+  <path d="M192 74C178 64 151 63 139 75C126 88 137 100 156 106L178 113C192 118 193 129 181 137C168 146 145 144 130 135L121 151C140 163 170 166 190 154C214 140 212 115 190 103L165 95C151 90 145 85 152 79C159 73 177 74 185 81Z" fill="#1E88FF"/>
+  <path d="M131 168H181" stroke="#64C8FF"/>
+  <circle cx="76" cy="81" r="3.5" fill="#64C8FF" stroke="none"/>
+  <circle cx="246" cy="139" r="4" fill="#FFB93C" stroke="none"/>
+</g>
+</svg>

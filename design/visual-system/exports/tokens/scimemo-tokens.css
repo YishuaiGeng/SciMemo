@@ -1,0 +1,290 @@
+/* SciMemo visual tokens v1.0.0. Opt in with class="scimemo-theme".
+   Add data-theme="dark" on that same element for the dark palette.
+   No remote fonts, global root tokens, or application data changes. */
+
+.scimemo-theme {
+  color-scheme: light;
+  --scimemo-color-canvas: #F5F8FC;
+  --scimemo-color-surface: #FFFFFF;
+  --scimemo-color-elevated: #FFFFFF;
+  --scimemo-color-sidebar: #EBF3FC;
+  --scimemo-color-nav-selected: #DCEEFF;
+  --scimemo-color-text: #0B2D5B;
+  --scimemo-color-text-secondary: #526780;
+  --scimemo-color-text-muted: #586C82;
+  --scimemo-color-border: #D5E0EC;
+  --scimemo-color-control-border: #6E86A2;
+  --scimemo-color-action: #0866C8;
+  --scimemo-color-action-hover: #0755A8;
+  --scimemo-color-action-foreground: #FFFFFF;
+  --scimemo-color-link: #0866C8;
+  --scimemo-color-focus: #0866C8;
+  --scimemo-color-note-surface: #FFF9EE;
+  --scimemo-color-note-border: #E8DDCB;
+  --scimemo-color-decorative-fill: #E9F3FF;
+  --scimemo-color-neutral-foreground: #4C6079;
+  --scimemo-color-neutral-background: #EEF3F8;
+  --scimemo-color-neutral-border: #D5E0EC;
+  --scimemo-color-processing-foreground: #075DAE;
+  --scimemo-color-processing-background: #E9F3FF;
+  --scimemo-color-processing-border: #BED8F5;
+  --scimemo-color-warning-foreground: #865400;
+  --scimemo-color-warning-background: #FFF2D6;
+  --scimemo-color-warning-border: #E9D29B;
+  --scimemo-color-success-foreground: #176443;
+  --scimemo-color-success-background: #E7F5ED;
+  --scimemo-color-success-border: #B7DAC5;
+  --scimemo-color-danger-foreground: #A33A32;
+  --scimemo-color-danger-background: #FDECE9;
+  --scimemo-color-danger-border: #E9BEB8;
+  --scimemo-color-conflict-foreground: #6F3A9F;
+  --scimemo-color-conflict-background: #F2EBFA;
+  --scimemo-color-conflict-border: #D9C3ED;
+  --scimemo-brand-navy: #0B2D5B;
+  --scimemo-brand-blue: #1E88FF;
+  --scimemo-brand-sky: #64C8FF;
+  --scimemo-brand-gold: #FFB93C;
+  --scimemo-brand-paper: #FFF9EE;
+  --scimemo-brand-blush: #FFB6A7;
+  --scimemo-space-4: 4px;
+  --scimemo-space-8: 8px;
+  --scimemo-space-12: 12px;
+  --scimemo-space-16: 16px;
+  --scimemo-space-24: 24px;
+  --scimemo-space-32: 32px;
+  --scimemo-space-48: 48px;
+  --scimemo-radius-control: 8px;
+  --scimemo-radius-card: 14px;
+  --scimemo-radius-illustration: 20px;
+  --scimemo-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --scimemo-type-page-size: 30px;
+  --scimemo-type-page-line-height: 40px;
+  --scimemo-type-page-weight: 650;
+  --scimemo-type-page-mobile-size: 26px;
+  --scimemo-type-page-mobile-line-height: 34px;
+  --scimemo-type-page-mobile-weight: 650;
+  --scimemo-type-section-size: 20px;
+  --scimemo-type-section-line-height: 28px;
+  --scimemo-type-section-weight: 600;
+  --scimemo-type-record-size: 16px;
+  --scimemo-type-record-line-height: 24px;
+  --scimemo-type-record-weight: 600;
+  --scimemo-type-body-size: 14px;
+  --scimemo-type-body-line-height: 21px;
+  --scimemo-type-body-weight: 400;
+  --scimemo-type-control-size: 14px;
+  --scimemo-type-control-line-height: 21px;
+  --scimemo-type-control-weight: 500;
+  --scimemo-type-secondary-size: 12px;
+  --scimemo-type-secondary-line-height: 18px;
+  --scimemo-type-secondary-weight: 400;
+  --scimemo-type-badge-size: 12px;
+  --scimemo-type-badge-line-height: 18px;
+  --scimemo-type-badge-weight: 500;
+  --scimemo-type-metadata-size: 11px;
+  --scimemo-type-metadata-line-height: 16px;
+  --scimemo-type-metadata-weight: 400;
+  --scimemo-icon-size: 24px;
+  --scimemo-icon-stroke: 1.75px;
+  font-family: var(--scimemo-font-family);
+  color: var(--scimemo-color-text);
+  background: var(--scimemo-color-canvas);
+}
+
+.scimemo-theme[data-theme="dark"] {
+  color-scheme: dark;
+  --scimemo-color-canvas: #071A33;
+  --scimemo-color-surface: #0E294A;
+  --scimemo-color-elevated: #143456;
+  --scimemo-color-sidebar: #09213F;
+  --scimemo-color-nav-selected: #123D68;
+  --scimemo-color-text: #EEF5FF;
+  --scimemo-color-text-secondary: #ACBED4;
+  --scimemo-color-text-muted: #96ACC5;
+  --scimemo-color-border: #2A4669;
+  --scimemo-color-control-border: #708CAC;
+  --scimemo-color-action: #64C8FF;
+  --scimemo-color-action-hover: #8AD6FF;
+  --scimemo-color-action-foreground: #08264A;
+  --scimemo-color-link: #75C8FF;
+  --scimemo-color-focus: #FFB93C;
+  --scimemo-color-note-surface: #132E4B;
+  --scimemo-color-note-border: #36516E;
+  --scimemo-color-decorative-fill: #143456;
+  --scimemo-color-neutral-foreground: #BED0E5;
+  --scimemo-color-neutral-background: #26384F;
+  --scimemo-color-neutral-border: #516882;
+  --scimemo-color-processing-foreground: #A5D6FF;
+  --scimemo-color-processing-background: #123B61;
+  --scimemo-color-processing-border: #3D658B;
+  --scimemo-color-warning-foreground: #FFD178;
+  --scimemo-color-warning-background: #45361A;
+  --scimemo-color-warning-border: #876B34;
+  --scimemo-color-success-foreground: #99DDB8;
+  --scimemo-color-success-background: #153E32;
+  --scimemo-color-success-border: #3E735A;
+  --scimemo-color-danger-foreground: #FFB4AC;
+  --scimemo-color-danger-background: #482B2B;
+  --scimemo-color-danger-border: #87534F;
+  --scimemo-color-conflict-foreground: #D9B7FF;
+  --scimemo-color-conflict-background: #382750;
+  --scimemo-color-conflict-border: #6C4D89;
+}
+
+.scimemo-theme .scimemo-status,
+.scimemo-theme .scimemo-stage,
+.scimemo-theme .scimemo-tone {
+  --scimemo-chip-foreground: var(--scimemo-color-neutral-foreground);
+  --scimemo-chip-background: var(--scimemo-color-neutral-background);
+  --scimemo-chip-border: var(--scimemo-color-neutral-border);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: var(--scimemo-space-4) var(--scimemo-space-8);
+  border: 1px solid var(--scimemo-chip-border);
+  border-radius: var(--scimemo-radius-control);
+  color: var(--scimemo-chip-foreground);
+  background: var(--scimemo-chip-background);
+  font-size: var(--scimemo-type-badge-size);
+  line-height: var(--scimemo-type-badge-line-height);
+  font-weight: var(--scimemo-type-badge-weight);
+  white-space: nowrap;
+}
+
+/* Submission status keys match src/core/types.ts. Keep their text labels. */
+.scimemo-theme .scimemo-status[data-status="withdrawn"],
+.scimemo-theme .scimemo-tone[data-tone="neutral"] {
+  --scimemo-chip-foreground: var(--scimemo-color-neutral-foreground);
+  --scimemo-chip-background: var(--scimemo-color-neutral-background);
+  --scimemo-chip-border: var(--scimemo-color-neutral-border);
+}
+
+.scimemo-theme .scimemo-status[data-status="submitted"],
+.scimemo-theme .scimemo-status[data-status="editorial"],
+.scimemo-theme .scimemo-status[data-status="under_review"],
+.scimemo-theme .scimemo-status[data-status="resubmitted"],
+.scimemo-theme .scimemo-tone[data-tone="processing"] {
+  --scimemo-chip-foreground: var(--scimemo-color-processing-foreground);
+  --scimemo-chip-background: var(--scimemo-color-processing-background);
+  --scimemo-chip-border: var(--scimemo-color-processing-border);
+}
+
+.scimemo-theme .scimemo-status[data-status="major_revision"],
+.scimemo-theme .scimemo-status[data-status="minor_revision"],
+.scimemo-theme .scimemo-tone[data-tone="warning"] {
+  --scimemo-chip-foreground: var(--scimemo-color-warning-foreground);
+  --scimemo-chip-background: var(--scimemo-color-warning-background);
+  --scimemo-chip-border: var(--scimemo-color-warning-border);
+}
+
+.scimemo-theme .scimemo-status[data-status="accepted"],
+.scimemo-theme .scimemo-tone[data-tone="success"] {
+  --scimemo-chip-foreground: var(--scimemo-color-success-foreground);
+  --scimemo-chip-background: var(--scimemo-color-success-background);
+  --scimemo-chip-border: var(--scimemo-color-success-border);
+}
+
+.scimemo-theme .scimemo-status[data-status="rejected"],
+.scimemo-theme .scimemo-tone[data-tone="danger"] {
+  --scimemo-chip-foreground: var(--scimemo-color-danger-foreground);
+  --scimemo-chip-background: var(--scimemo-color-danger-background);
+  --scimemo-chip-border: var(--scimemo-color-danger-border);
+}
+
+.scimemo-theme .scimemo-tone[data-tone="conflict"] {
+  --scimemo-chip-foreground: var(--scimemo-color-conflict-foreground);
+  --scimemo-chip-background: var(--scimemo-color-conflict-background);
+  --scimemo-chip-border: var(--scimemo-color-conflict-border);
+}
+
+/* Work stages stay neutral: writing completion is distinct from acceptance. */
+.scimemo-theme .scimemo-stage[data-stage="finished"]::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+  background: currentColor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m5 12 4 4 10-10' fill='none' stroke='black' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+.scimemo-theme .scimemo-icon {
+  width: var(--scimemo-icon-size);
+  height: var(--scimemo-icon-size);
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--scimemo-icon-stroke);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.scimemo-theme .scimemo-action {
+  color: var(--scimemo-color-action-foreground);
+  background: var(--scimemo-color-action);
+  border-color: var(--scimemo-color-action);
+}
+.scimemo-theme .scimemo-action:hover {
+  background: var(--scimemo-color-action-hover);
+  border-color: var(--scimemo-color-action-hover);
+}
+.scimemo-theme .scimemo-link { color: var(--scimemo-color-link); }
+.scimemo-theme :focus-visible {
+  outline: 3px solid var(--scimemo-color-focus);
+  outline-offset: 3px;
+}
+
+.scimemo-theme .scimemo-tabular { font-variant-numeric: tabular-nums; }
+
+.scimemo-theme .scimemo-type-page {
+  font-size: var(--scimemo-type-page-size);
+  line-height: var(--scimemo-type-page-line-height);
+  font-weight: var(--scimemo-type-page-weight);
+}
+
+.scimemo-theme .scimemo-type-page-mobile {
+  font-size: var(--scimemo-type-page-mobile-size);
+  line-height: var(--scimemo-type-page-mobile-line-height);
+  font-weight: var(--scimemo-type-page-mobile-weight);
+}
+
+.scimemo-theme .scimemo-type-section {
+  font-size: var(--scimemo-type-section-size);
+  line-height: var(--scimemo-type-section-line-height);
+  font-weight: var(--scimemo-type-section-weight);
+}
+
+.scimemo-theme .scimemo-type-record {
+  font-size: var(--scimemo-type-record-size);
+  line-height: var(--scimemo-type-record-line-height);
+  font-weight: var(--scimemo-type-record-weight);
+}
+
+.scimemo-theme .scimemo-type-body {
+  font-size: var(--scimemo-type-body-size);
+  line-height: var(--scimemo-type-body-line-height);
+  font-weight: var(--scimemo-type-body-weight);
+}
+
+.scimemo-theme .scimemo-type-control {
+  font-size: var(--scimemo-type-control-size);
+  line-height: var(--scimemo-type-control-line-height);
+  font-weight: var(--scimemo-type-control-weight);
+}
+
+.scimemo-theme .scimemo-type-secondary {
+  font-size: var(--scimemo-type-secondary-size);
+  line-height: var(--scimemo-type-secondary-line-height);
+  font-weight: var(--scimemo-type-secondary-weight);
+}
+
+.scimemo-theme .scimemo-type-badge {
+  font-size: var(--scimemo-type-badge-size);
+  line-height: var(--scimemo-type-badge-line-height);
+  font-weight: var(--scimemo-type-badge-weight);
+}
+
+.scimemo-theme .scimemo-type-metadata {
+  font-size: var(--scimemo-type-metadata-size);
+  line-height: var(--scimemo-type-metadata-line-height);
+  font-weight: var(--scimemo-type-metadata-weight);
+}

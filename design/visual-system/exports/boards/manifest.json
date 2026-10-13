@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "boardSize": [
+    1600,
+    1000
+  ],
+  "pages": [
+    {
+      "name": "01-overview",
+      "file": "scimemo-01-overview.svg"
+    },
+    {
+      "name": "02-identity-color",
+      "file": "scimemo-02-identity-color.svg"
+    },
+    {
+      "name": "03-type-geometry",
+      "file": "scimemo-03-type-geometry.svg"
+    },
+    {
+      "name": "04-symbol-family",
+      "file": "scimemo-04-symbol-family.svg"
+    },
+    {
+      "name": "05-states-meaning",
+      "file": "scimemo-05-states-meaning.svg"
+    },
+    {
+      "name": "06-illustrations-motifs",
+      "file": "scimemo-06-illustrations-motifs.svg"
+    },
+    {
+      "name": "07-application",
+      "file": "scimemo-07-application.svg"
+    },
+    {
+      "name": "08-dark-handoff",
+      "file": "scimemo-08-dark-handoff.svg"
+    }
+  ]
+}

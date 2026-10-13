@@ -1,0 +1,218 @@
+{
+  "name": "SciMemo Symbols",
+  "version": "1.0.0",
+  "baseGlyphs": 24,
+  "moduleDisplayVariants": 4,
+  "geometry": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.75,
+    "linecap": "round",
+    "linejoin": "round",
+    "safeBounds": [
+      2.0,
+      2.0,
+      22.0,
+      22.0
+    ]
+  },
+  "colors": {
+    "default": "#0B2D5B",
+    "accent": "#1E88FF",
+    "action": "#0866C8"
+  },
+  "usage": {
+    "inline": "Base icons use currentColor. Set CSS color on the inline SVG to theme it; the color attribute is the navy fallback.",
+    "size": "Use 20–24 px in navigation and controls; 16 px is the minimum, 48 px duotone variants are for module cards and editorial display.",
+    "active": "Use the same outline geometry for active navigation; set color to #0866C8 and place on #EAF4FF for functional contrast. Reserve #1E88FF for decorative accents. Avoid switching the silhouette or stroke weight.",
+    "accessibility": "Icons supplement text labels. For an icon-only button, provide aria-label; for an inline icon next to text, use aria-hidden=true and omit the SVG title.",
+    "status": "All nine status slugs map directly to src/core/types.ts. Always show the status text; never communicate submission status by color alone.",
+    "product": "These are reusable design assets. Their presence does not mean the application has been wired to use them."
+  },
+  "icons": [
+    {
+      "slug": "manuscripts",
+      "file": "scimemo-manuscripts.svg",
+      "label": "稿件",
+      "category": "module",
+      "description": "折页稿纸与流动丝带；记录稿件、投稿尝试和事件历史。",
+      "kind": "paper",
+      "displayVariant": "scimemo-manuscripts-duotone.svg"
+    },
+    {
+      "slug": "ideas",
+      "file": "scimemo-ideas.svg",
+      "label": "想法与笔记",
+      "category": "module",
+      "description": "独立方形便笺与双胶囊灵感光芒；延续 Logo 的两道圆头光芒，笔记无需挂靠任何稿件。",
+      "kind": "note",
+      "displayVariant": "scimemo-ideas-duotone.svg"
+    },
+    {
+      "slug": "venues",
+      "file": "scimemo-venues.svg",
+      "label": "期刊与会议",
+      "category": "module",
+      "description": "展开的期刊与丝带书签；统一表示期刊、会议及届次。",
+      "kind": "venue",
+      "displayVariant": "scimemo-venues-duotone.svg"
+    },
+    {
+      "slug": "dates",
+      "file": "scimemo-dates.svg",
+      "label": "日期与日程",
+      "category": "module",
+      "description": "独立日期格与确认标记；不暗示任何未记录的时刻或时区。",
+      "kind": "deadline",
+      "displayVariant": "scimemo-dates-duotone.svg"
+    },
+    {
+      "slug": "status-submitted",
+      "file": "scimemo-status-submitted.svg",
+      "label": "已投稿",
+      "category": "status",
+      "description": "送出箭头；仅对应已记录的投稿。",
+      "status": "submitted"
+    },
+    {
+      "slug": "status-editorial",
+      "file": "scimemo-status-editorial.svg",
+      "label": "编辑处理中",
+      "category": "status",
+      "description": "稿纸与处理时钟；表明编辑环节，不能用作等待审稿的替代状态。",
+      "status": "editorial"
+    },
+    {
+      "slug": "status-under-review",
+      "file": "scimemo-status-under-review.svg",
+      "label": "审稿中",
+      "category": "status",
+      "description": "审阅镜与稿纸；仅对应 under_review。",
+      "status": "under_review"
+    },
+    {
+      "slug": "status-major-revision",
+      "file": "scimemo-status-major-revision.svg",
+      "label": "需要大修",
+      "category": "status",
+      "description": "双向修订环，表示较大范围的修订；配合文字区分大修、小修。",
+      "status": "major_revision"
+    },
+    {
+      "slug": "status-minor-revision",
+      "file": "scimemo-status-minor-revision.svg",
+      "label": "需要小修",
+      "category": "status",
+      "description": "稿纸与局部修订笔；配合文字区分大修、小修。",
+      "status": "minor_revision"
+    },
+    {
+      "slug": "status-resubmitted",
+      "file": "scimemo-status-resubmitted.svg",
+      "label": "已提交修订",
+      "category": "status",
+      "description": "修订稿与上送箭头；仅在已记录提交修订事件时使用。",
+      "status": "resubmitted"
+    },
+    {
+      "slug": "status-accepted",
+      "file": "scimemo-status-accepted.svg",
+      "label": "已接收",
+      "category": "status",
+      "description": "闭合圆与确认勾；稿件已接收。",
+      "status": "accepted"
+    },
+    {
+      "slug": "status-rejected",
+      "file": "scimemo-status-rejected.svg",
+      "label": "已拒稿",
+      "category": "status",
+      "description": "闭合圆与交叉；仅表示拒稿，不能代替删除操作。",
+      "status": "rejected"
+    },
+    {
+      "slug": "status-withdrawn",
+      "file": "scimemo-status-withdrawn.svg",
+      "label": "已撤稿",
+      "category": "status",
+      "description": "向外返回箭头；已结束的撤稿尝试仍保留历史。",
+      "status": "withdrawn"
+    },
+    {
+      "slug": "search",
+      "file": "scimemo-search.svg",
+      "label": "搜索",
+      "category": "action",
+      "description": "搜索本机记录。"
+    },
+    {
+      "slug": "add",
+      "file": "scimemo-add.svg",
+      "label": "新建",
+      "category": "action",
+      "description": "新建稿件、独立想法、期刊会议或日期。"
+    },
+    {
+      "slug": "edit",
+      "file": "scimemo-edit.svg",
+      "label": "编辑",
+      "category": "action",
+      "description": "编辑现有记录。"
+    },
+    {
+      "slug": "archive",
+      "file": "scimemo-archive.svg",
+      "label": "归档",
+      "category": "action",
+      "description": "归档稿件；不表示删除。"
+    },
+    {
+      "slug": "trash",
+      "file": "scimemo-trash.svg",
+      "label": "删除与回收站",
+      "category": "action",
+      "description": "移入回收站或打开回收站；不暗示永久清除。"
+    },
+    {
+      "slug": "import",
+      "file": "scimemo-import.svg",
+      "label": "恢复备份",
+      "category": "action",
+      "description": "将 JSON 备份恢复到符合条件的空工作区。"
+    },
+    {
+      "slug": "export",
+      "file": "scimemo-export.svg",
+      "label": "导出",
+      "category": "action",
+      "description": "导出 JSON 完整备份或稿件概览 CSV。"
+    },
+    {
+      "slug": "pin",
+      "file": "scimemo-pin.svg",
+      "label": "置顶",
+      "category": "action",
+      "description": "笔记置顶；不是必需的层级或项目。"
+    },
+    {
+      "slug": "link",
+      "file": "scimemo-link.svg",
+      "label": "关联",
+      "category": "action",
+      "description": "表示已有记录间的可选关联或网址。"
+    },
+    {
+      "slug": "settings",
+      "file": "scimemo-settings.svg",
+      "label": "设置与数据",
+      "category": "action",
+      "description": "存储、备份、手动可选同步和数据检查。"
+    },
+    {
+      "slug": "history",
+      "file": "scimemo-history.svg",
+      "label": "投稿历史",
+      "category": "action",
+      "description": "查看追加保存的投稿尝试与事件时间线。"
+    }
+  ]
+}

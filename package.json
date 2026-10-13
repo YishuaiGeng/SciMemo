@@ -1,0 +1,41 @@
+{
+  "name": "scimemo",
+  "version": "0.1.0-dev",
+  "private": true,
+  "description": "SciMemo · 研笺 — 论文投稿与科研灵感手账",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "check": "tsc --noEmit && node scripts/check-layers.mjs",
+    "test": "tsc -p tsconfig.core.json && node --test tests/*.test.mjs",
+    "tauri": "tauri",
+    "desktop:dev": "tauri dev",
+    "desktop:build": "tauri build",
+    "android:dev": "tauri android dev",
+    "ios:dev": "tauri ios dev",
+    "test:integration": "tsc -p tsconfig.integration.json && node scripts/integration.mjs",
+    "check:syntax": "node scripts/check-syntax.mjs",
+    "check:native": "cargo check --manifest-path src-tauri/Cargo.toml && cargo test --manifest-path src-tauri/Cargo.toml"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/plugin-opener": "^2.7.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.0"
+  }
+}

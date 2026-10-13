@@ -1,0 +1,4 @@
+> scimemo@0.1.0-dev test:integration
+> tsc -p tsconfig.integration.json && node scripts/integration.mjs
+
+PASS: real HTTP roundtrip, conflict, deletion, lost-ack replay and byte-limited large batches

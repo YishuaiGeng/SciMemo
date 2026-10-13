@@ -1,0 +1,37 @@
+{
+  "viewBox": "0 0 320 220",
+  "strokeWidth": 2.5,
+  "strokeLinecap": "round",
+  "strokeLinejoin": "round",
+  "background": "transparent",
+  "palette": {
+    "navy": "#0B2D5B",
+    "blue": "#1E88FF",
+    "sky": "#64C8FF",
+    "cream": "#FFF9EE",
+    "gold": "#FFB93C",
+    "paleBlue": "#EFF6FF"
+  },
+  "illustrations": [
+    {
+      "slug": "manuscripts",
+      "label": "Manuscripts — a page with a flowing ribbon",
+      "file": "scimemo-empty-manuscripts.svg"
+    },
+    {
+      "slug": "ideas",
+      "label": "Independent ideas and notes — a notebook and a spark",
+      "file": "scimemo-empty-ideas.svg"
+    },
+    {
+      "slug": "venues",
+      "label": "Journals and conferences — two books and a target card",
+      "file": "scimemo-empty-venues.svg"
+    },
+    {
+      "slug": "dates",
+      "label": "Dates — a calendar page with a date dot and a ribbon tab",
+      "file": "scimemo-empty-dates.svg"
+    }
+  ]
+}

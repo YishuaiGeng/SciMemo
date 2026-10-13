@@ -1,0 +1,11 @@
+.git
+node_modules
+dist
+.venv
+.test-build
+**/__pycache__
+**/.pytest_cache
+**/.env
+**/*.sqlite3*
+server/data
+src-tauri/target

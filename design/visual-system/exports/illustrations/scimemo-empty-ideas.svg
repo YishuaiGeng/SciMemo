@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220" fill="none" role="img" aria-labelledby="ideas-title">
+  <title id="ideas-title">Independent ideas and notes — a notebook and a spark</title>
+<g fill="none" stroke="#0B2D5B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="160" cy="194" rx="88" ry="8" fill="#EFF6FF" stroke="none"/>
+  <ellipse cx="160" cy="194" rx="61" ry="4" fill="#64C8FF" opacity="0.12" stroke="none"/>
+  <path d="M108 48H211Q220 48 220 57V176Q220 184 212 184H108Q100 184 100 176V56Q100 48 108 48Z" fill="#EFF6FF"/>
+  <path d="M100 42H203Q211 42 211 50V170Q211 178 203 178H100Q92 178 92 170V50Q92 42 100 42Z" fill="#FFF9EE"/>
+  <path d="M114 43V177" stroke="#64C8FF"/>
+  <path d="M98 63H88Q83 63 83 68Q83 73 88 73H98M98 91H88Q83 91 83 96Q83 101 88 101H98M98 119H88Q83 119 83 124Q83 129 88 129H98M98 147H88Q83 147 83 152Q83 157 88 157H98"/>
+  <path d="M132 91H180M132 108H188M132 125H172" stroke="#64C8FF"/>
+  <path d="M135 151C143 141 153 141 158 148C162 154 169 154 177 145" stroke="#1E88FF"/>
+  <path d="M224 30L230 46M240 58L255 50" stroke="#FFB93C" stroke-width="8"/>
+  <circle cx="248" cy="84" r="3.5" fill="#64C8FF" stroke="none"/>
+  <circle cx="70" cy="111" r="3.5" fill="#1E88FF" stroke="none"/>
+</g>
+</svg>

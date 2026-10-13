@@ -1,0 +1,19 @@
+[package]
+name = "scimemo"
+version = "0.1.0"
+description = "SciMemo - local-first research notes and submission records"
+edition = "2021"
+license = "MIT"
+[lib]
+name = "scimemo_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rusqlite = { version = "0.32", features = ["bundled"] }
+# Native save dialog for backups and exports; opening source links in the system browser.
+tauri-plugin-dialog = "2"
+tauri-plugin-opener = "2"

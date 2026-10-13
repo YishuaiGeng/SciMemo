@@ -1,0 +1,5 @@
+..........................................................               [100%]
+=============================== warnings summary ===============================
+../../.cache/uv/archive-v0/hr1-0NsnDM1nn88wCjR-5/lib/python3.13/site-packages/starlette/testclient.py:45
+  DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+58 passed, 1 warning in 0.48s

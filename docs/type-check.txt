@@ -1,0 +1,4 @@
+
+> scimemo@0.1.0-dev check
+> tsc --noEmit
+

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220" fill="none" role="img" aria-labelledby="venues-title">
+  <title id="venues-title">Journals and conferences — two books and a target card</title>
+<g fill="none" stroke="#0B2D5B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="160" cy="194" rx="88" ry="8" fill="#EFF6FF" stroke="none"/>
+  <ellipse cx="160" cy="194" rx="61" ry="4" fill="#64C8FF" opacity="0.12" stroke="none"/>
+  <path d="M94 64H129Q134 64 134 69V180H88V70Q88 64 94 64Z" fill="#64C8FF"/>
+  <path d="M88 82H134M88 163H134"/>
+  <path d="M107 100H116M107 109H116" stroke="#0B2D5B"/>
+  <path d="M145 47H180Q186 47 186 53V180H140V53Q140 47 145 47Z" fill="#FFF9EE"/>
+  <path d="M140 66H186M140 163H186"/>
+  <path d="M158 85H168M158 94H168" stroke="#1E88FF"/>
+  <path d="M174 180V105Q174 97 182 97H239Q247 97 247 105V172Q247 180 239 180Z" fill="#EFF6FF"/>
+  <path d="M218 97H232V126L225 121L218 126Z" fill="#FFB93C"/>
+  <path d="M189 139H232M189 151H220M189 163H210" stroke="#1E88FF"/>
+  <path d="M76 180H252"/>
+  <circle cx="222" cy="57" r="3.5" fill="#64C8FF" stroke="none"/>
+  <circle cx="70" cy="127" r="3.5" fill="#FFB93C" stroke="none"/>
+</g>
+</svg>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1024" height="1024" viewBox="174 170 593 593" stroke-linecap="round" stroke-linejoin="round">
+<title>SciMemo — app icon</title><desc>SciMemo English-only logo. Editable vector paths and gradients. The mascot and Latin wordmark retain the approved v02 geometry.</desc>
+<defs>
+  <linearGradient id="navy" gradientUnits="userSpaceOnUse" x1="410" y1="171" x2="531" y2="756">
+    <stop stop-color="#155291" /><stop offset=".27" stop-color="#0B3569" />
+    <stop offset=".68" stop-color="#062855" /><stop offset="1" stop-color="#031E43" />
+  </linearGradient>
+  <radialGradient id="navyLight" gradientUnits="userSpaceOnUse" cx="464" cy="154" r="474" gradientTransform="translate(0 45) scale(1 .72)">
+    <stop stop-color="#1D69B0" stop-opacity=".32" /><stop offset="1" stop-color="#114D8F" stop-opacity="0" />
+  </radialGradient>
+  <linearGradient id="navyEdge" gradientUnits="userSpaceOnUse" x1="430" y1="169" x2="430" y2="756">
+    <stop stop-color="#42B7FF" stop-opacity=".65" /><stop offset=".12" stop-color="#1770B9" stop-opacity=".12" />
+    <stop offset="1" stop-color="#00204D" stop-opacity="0" />
+  </linearGradient>
+  <linearGradient id="backBlue" gradientUnits="userSpaceOnUse" x1="352" y1="405" x2="557" y2="244">
+    <stop stop-color="#004C9E" /><stop offset=".48" stop-color="#1285E9" /><stop offset="1" stop-color="#64D2F7" />
+  </linearGradient>
+  <linearGradient id="backEdge" gradientUnits="userSpaceOnUse" x1="332" y1="326" x2="569" y2="266">
+    <stop stop-color="#A4F4FF" /><stop offset=".55" stop-color="#7CE7FF" /><stop offset="1" stop-color="#B4F4FF" />
+  </linearGradient>
+  <linearGradient id="returnBlue" gradientUnits="userSpaceOnUse" x1="491" y1="583" x2="608" y2="706">
+    <stop stop-color="#002B64" /><stop offset=".46" stop-color="#003F8A" /><stop offset="1" stop-color="#047BCB" />
+  </linearGradient>
+  <linearGradient id="curlBlue" gradientUnits="userSpaceOnUse" x1="333" y1="580" x2="279" y2="649">
+    <stop stop-color="#087DCE" /><stop offset=".35" stop-color="#1C9DF1" /><stop offset="1" stop-color="#67D5F4" />
+  </linearGradient>
+  <linearGradient id="paper" gradientUnits="userSpaceOnUse" x1="423" y1="329" x2="516" y2="706">
+    <stop stop-color="#FFFEFA" /><stop offset=".57" stop-color="#FFFCF5" /><stop offset="1" stop-color="#FFF5E6" />
+  </linearGradient>
+  <linearGradient id="paperWarm" gradientUnits="userSpaceOnUse" x1="456" y1="494" x2="428" y2="610">
+    <stop stop-color="#D9AF7B" stop-opacity=".53" /><stop offset=".5" stop-color="#ECD3AF" stop-opacity=".25" />
+    <stop offset="1" stop-color="#FFF9EE" stop-opacity="0" />
+  </linearGradient>
+  <linearGradient id="ribbon" gradientUnits="userSpaceOnUse" x1="281" y1="402" x2="672" y2="550">
+    <stop stop-color="#80E6F6" /><stop offset=".2" stop-color="#47BEF7" />
+    <stop offset=".48" stop-color="#1D9DF2" /><stop offset=".77" stop-color="#1384E8" /><stop offset="1" stop-color="#28B6F4" />
+  </linearGradient>
+  <linearGradient id="ribbonRim" gradientUnits="userSpaceOnUse" x1="282" y1="370" x2="666" y2="537">
+    <stop stop-color="#BEFBFF" /><stop offset=".55" stop-color="#9DEDF7" /><stop offset="1" stop-color="#94E9F9" />
+  </linearGradient>
+  <linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="644" y1="246" x2="642" y2="334">
+    <stop stop-color="#FFDE78" /><stop offset=".5" stop-color="#FFCA51" /><stop offset="1" stop-color="#FFB536" />
+  </linearGradient>
+  <linearGradient id="goldDot" gradientUnits="userSpaceOnUse" x1="311" y1="810" x2="339" y2="841">
+    <stop stop-color="#FFCA54" /><stop offset="1" stop-color="#FFA419" />
+  </linearGradient>
+  <linearGradient id="ink" gradientUnits="userSpaceOnUse" x1="480" y1="360" x2="499" y2="420">
+    <stop stop-color="#072951" /><stop offset="1" stop-color="#001B43" />
+  </linearGradient>
+  <linearGradient id="blush" gradientUnits="userSpaceOnUse" x1="441" y1="421" x2="454" y2="445">
+    <stop stop-color="#FFD1B8" /><stop offset="1" stop-color="#FFBFA9" />
+  </linearGradient>
+  <linearGradient id="noteLine" gradientUnits="userSpaceOnUse" x1="408" y1="579" x2="501" y2="648">
+    <stop stop-color="#B2C9DE" /><stop offset="1" stop-color="#A9BED2" />
+  </linearGradient>
+  <linearGradient id="wordNavy" gradientUnits="userSpaceOnUse" x1="220" y1="810" x2="220" y2="945">
+    <stop stop-color="#082E5B" /><stop offset="1" stop-color="#001D48" />
+  </linearGradient>
+  <linearGradient id="wordBlue" gradientUnits="userSpaceOnUse" x1="580" y1="812" x2="580" y2="945">
+    <stop stop-color="#0796FA" /><stop offset="1" stop-color="#0071CC" />
+  </linearGradient>
+  <path id="tile" d="M333 171 C290 171 255 177 226 201 C191 229 176 267 176 318 L176 605 C176 659 191 699 222 726 C247 747 279 756 323 756 L615 756 C665 756 697 745 725 720 C754 694 766 658 766 610 L766 320 C766 268 754 234 725 207 C696 180 668 171 617 171 Z" />
+  <path id="paperShape" d="M391 352 L564 312 C592 306 615 321 623 348 L665 541 L664 586 L587 566 C602 593 597 620 583 640 C573 655 562 664 542 668 L376 699 C344 706 319 701 300 680 L279 630 L332 564 L313 494 L365 432 C348 428 339 410 349 385 C356 367 369 357 391 352 Z" />
+  <path id="frontRibbon" d="M318 302 C289 326 276 350 276 373 L276 436 C277 468 292 485 317 498 C355 518 410 531 465 545 C527 560 579 572 612 600 C638 622 649 647 639 668 C659 650 671 623 670 593 C668 559 655 534 632 516 C604 494 555 482 500 469 C443 456 394 446 360 429 C323 412 303 386 300 357 C297 332 303 316 318 302 Z" />
+  <clipPath id="tileClip"><use xlink:href="#tile" /></clipPath>
+  <clipPath id="paperClip"><use xlink:href="#paperShape" /></clipPath>
+</defs><g id="01_App_icon_base" data-name="01_App_icon_base"><use xlink:href="#tile" fill="url(#navy)" /><use xlink:href="#tile" fill="url(#navyLight)" />
+ <use xlink:href="#tile" fill="none" stroke="url(#navyEdge)" stroke-width="2" /></g><g id="02_Mascot_ambient_shadow" data-name="02_Mascot_ambient_shadow"><ellipse cx="490" cy="687" rx="176" ry="25" fill="#001738" opacity=".10" />
+ <ellipse cx="491" cy="684" rx="156" ry="20" fill="#001738" opacity=".13" />
+ <ellipse cx="491" cy="679" rx="130" ry="15" fill="#001738" opacity=".18" /></g><g id="03_Ribbon_lower_return" data-name="03_Ribbon_lower_return"><path d="M381 677 C426 673 485 665 538 657 C566 652 590 636 594 609 C597 590 590 576 581 563 L628 551 C650 577 666 607 657 635 C648 670 612 690 567 693 C506 696 447 688 401 692 Z" fill="url(#returnBlue)" />
+ <path d="M406 691 C456 689 522 695 568 691 C599 688 622 680 639 668" fill="none" stroke="#1182BD" stroke-width="1.5" opacity=".5" /></g><g id="05_Ribbon_upper_fold" data-name="05_Ribbon_upper_fold"><path d="M361 430 C322 413 301 385 299 356 C296 322 310 301 340 291 L529 244 C552 237 570 247 576 274 L585 314 L389 358 C357 364 338 397 361 430 Z" fill="url(#backBlue)" />
+ <path d="M318 302 C324 298 332 293 341 291 L529 244 C552 237 569 249 575 273 C568 250 554 242 530 247 L342 294 C333 296 325 299 318 302 Z" fill="url(#backEdge)" />
+ <path d="M300 342 C295 379 321 412 359 430" fill="none" stroke="#A6F1FF" stroke-width="1.5" opacity=".6" /></g><g id="06_Paper_body" data-name="06_Paper_body"><use xlink:href="#paperShape" fill="url(#paper)" />
+ <path d="M309 490 C359 519 418 534 472 548 C529 561 566 569 589 585 L599 637 L362 691 Z" fill="url(#paperWarm)" clip-path="url(#paperClip)" />
+ <path d="M393 353 L562 313 C591 306 613 322 621 347" fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity=".8" /></g><g id="04_Ribbon_lower_curl" data-name="04_Ribbon_lower_curl"><path d="M332 564 C308 567 292 573 281 587 C263 610 273 640 289 662 C298 676 310 685 322 679 C335 674 344 663 345 649 C347 632 340 604 332 564 Z" fill="url(#curlBlue)" />
+ <path d="M331 564 C307 568 291 575 281 588" fill="none" stroke="#74DFFE" stroke-width="1.5" opacity=".5" /></g><g id="07_Paper_note_lines" data-name="07_Paper_note_lines"><path d="M390 601 L511 577 M397 641 L519 618" stroke="url(#noteLine)" stroke-width="21" stroke-linecap="round" fill="none" /></g><g id="08_Face_eyes" data-name="08_Face_eyes"><ellipse cx="463.2" cy="399.3" rx="12.7" ry="16.6" transform="rotate(-10 463.2 399.3)" fill="url(#ink)" />
+ <ellipse cx="568.4" cy="375.6" rx="12.5" ry="16.3" transform="rotate(-10 568.4 375.6)" fill="url(#ink)" />
+ <path d="M457 385 C451 388 451 393 452 399 M562 362 C557 365 557 369 558 374" fill="none" stroke="#30516E" stroke-width="1.1" opacity=".45" /></g><g id="09_Face_smile" data-name="09_Face_smile"><path d="M505 406 C513 416 533 416 539 400" fill="none" stroke="url(#ink)" stroke-width="11.5" stroke-linecap="round" /></g><g id="10_Face_blush" data-name="10_Face_blush"><ellipse cx="448.5" cy="432.9" rx="18.2" ry="13.7" transform="rotate(-12 448.5 432.9)" fill="url(#blush)" />
+ <ellipse cx="595" cy="401.7" rx="18.1" ry="13.7" transform="rotate(-12 595 401.7)" fill="#FFC9B2" /></g><g id="11_Ribbon_front" data-name="11_Ribbon_front"><use xlink:href="#frontRibbon" fill="url(#ribbon)" />
+ <path d="M318 302 C292 326 277 351 276 373 L276 435" fill="none" stroke="#B0F5FF" stroke-width="1.8" opacity=".7" />
+ <path d="M360 429 C398 446 447 456 500 469 C555 482 604 494 632 516 C650 530 661 549 667 571 C656 542 641 530 620 517 C589 498 549 489 498 476 C444 462 395 447 360 429 Z" fill="url(#ribbonRim)" />
+ <path d="M277 436 C278 468 293 485 318 498 C355 518 412 532 465 545" fill="none" stroke="#72D4F9" stroke-width="1.1" opacity=".32" /></g><g id="12_Inspiration_sparks" data-name="12_Inspiration_sparks"><path d="M627 296 L645 258 M654 328 L691 304" fill="none" stroke="url(#gold)" stroke-width="25" stroke-linecap="round" />
+ <path d="M616 295 L633 254 C637 246 648 243 654 250 M645 323 L685 296 C690 292 697 294 700 298" fill="none" stroke="#FFEAA9" stroke-width="1.5" opacity=".7" /></g></svg>

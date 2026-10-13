@@ -1,0 +1,119 @@
+{
+  "name": "SciMemo",
+  "version": "1.0.0",
+  "color": {
+    "brand": {
+      "navy": "#0B2D5B",
+      "blue": "#1E88FF",
+      "sky": "#64C8FF",
+      "gold": "#FFB93C",
+      "paper": "#FFF9EE",
+      "blush": "#FFB6A7"
+    },
+    "light": {
+      "canvas": "#F5F8FC",
+      "surface": "#FFFFFF",
+      "elevated": "#FFFFFF",
+      "sidebar": "#EBF3FC",
+      "navSelected": "#DCEEFF",
+      "text": "#0B2D5B",
+      "textSecondary": "#526780",
+      "textMuted": "#586C82",
+      "border": "#D5E0EC",
+      "controlBorder": "#6E86A2",
+      "action": "#0866C8",
+      "actionHover": "#0755A8",
+      "actionForeground": "#FFFFFF",
+      "link": "#0866C8",
+      "focus": "#0866C8",
+      "noteSurface": "#FFF9EE",
+      "noteBorder": "#E8DDCB",
+      "decorativeFill": "#E9F3FF",
+      "semantic": {
+        "neutral": { "foreground": "#4C6079", "background": "#EEF3F8", "border": "#D5E0EC" },
+        "processing": { "foreground": "#075DAE", "background": "#E9F3FF", "border": "#BED8F5" },
+        "warning": { "foreground": "#865400", "background": "#FFF2D6", "border": "#E9D29B" },
+        "success": { "foreground": "#176443", "background": "#E7F5ED", "border": "#B7DAC5" },
+        "danger": { "foreground": "#A33A32", "background": "#FDECE9", "border": "#E9BEB8" },
+        "conflict": { "foreground": "#6F3A9F", "background": "#F2EBFA", "border": "#D9C3ED" }
+      }
+    },
+    "dark": {
+      "canvas": "#071A33",
+      "surface": "#0E294A",
+      "elevated": "#143456",
+      "sidebar": "#09213F",
+      "navSelected": "#123D68",
+      "text": "#EEF5FF",
+      "textSecondary": "#ACBED4",
+      "textMuted": "#96ACC5",
+      "border": "#2A4669",
+      "controlBorder": "#708CAC",
+      "action": "#64C8FF",
+      "actionHover": "#8AD6FF",
+      "actionForeground": "#08264A",
+      "link": "#75C8FF",
+      "focus": "#FFB93C",
+      "noteSurface": "#132E4B",
+      "noteBorder": "#36516E",
+      "decorativeFill": "#143456",
+      "semantic": {
+        "neutral": { "foreground": "#BED0E5", "background": "#26384F", "border": "#516882" },
+        "processing": { "foreground": "#A5D6FF", "background": "#123B61", "border": "#3D658B" },
+        "warning": { "foreground": "#FFD178", "background": "#45361A", "border": "#876B34" },
+        "success": { "foreground": "#99DDB8", "background": "#153E32", "border": "#3E735A" },
+        "danger": { "foreground": "#FFB4AC", "background": "#482B2B", "border": "#87534F" },
+        "conflict": { "foreground": "#D9B7FF", "background": "#382750", "border": "#6C4D89" }
+      }
+    }
+  },
+  "spacing": { "4": 4, "8": 8, "12": 12, "16": 16, "24": 24, "32": 32, "48": 48 },
+  "radius": { "control": 8, "card": 14, "illustration": 20 },
+  "typography": {
+    "unit": "px",
+    "fontFamily": ["-apple-system", "BlinkMacSystemFont", "Segoe UI", "PingFang SC", "Microsoft YaHei", "sans-serif"],
+    "scale": {
+      "page": { "fontSize": 30, "lineHeight": 40, "fontWeight": 650 },
+      "pageMobile": { "fontSize": 26, "lineHeight": 34, "fontWeight": 650 },
+      "section": { "fontSize": 20, "lineHeight": 28, "fontWeight": 600 },
+      "record": { "fontSize": 16, "lineHeight": 24, "fontWeight": 600 },
+      "body": { "fontSize": 14, "lineHeight": 21, "fontWeight": 400 },
+      "control": { "fontSize": 14, "lineHeight": 21, "fontWeight": 500 },
+      "secondary": { "fontSize": 12, "lineHeight": 18, "fontWeight": 400 },
+      "badge": { "fontSize": 12, "lineHeight": 18, "fontWeight": 500 },
+      "metadata": { "fontSize": 11, "lineHeight": 16, "fontWeight": 400 }
+    }
+  },
+  "icon": {
+    "unit": "px",
+    "viewBox": [0, 0, 24, 24],
+    "opticalInset": 2,
+    "strokeWidth": 1.75,
+    "strokeLinecap": "round",
+    "strokeLinejoin": "round"
+  },
+  "stages": {
+    "idea": { "label": "构思中", "tone": "neutral", "symbol": "spark" },
+    "experiments": { "label": "实验中", "tone": "neutral", "symbol": "experiment" },
+    "writing": { "label": "写作中", "tone": "neutral", "symbol": "edit" },
+    "revising": { "label": "修改中", "tone": "neutral", "symbol": "edit" },
+    "paused": { "label": "已暂停", "tone": "neutral", "symbol": "pause" },
+    "finished": { "label": "已完成", "tone": "neutral", "symbol": "check" }
+  },
+  "submissionStatuses": {
+    "submitted": { "label": "已投稿", "tone": "processing", "symbol": "arrow-out" },
+    "editorial": { "label": "编辑处理中", "tone": "processing", "symbol": "inbox" },
+    "under_review": { "label": "审稿中", "tone": "processing", "symbol": "review" },
+    "major_revision": { "label": "需要大修", "tone": "warning", "symbol": "edit" },
+    "minor_revision": { "label": "需要小修", "tone": "warning", "symbol": "edit" },
+    "resubmitted": { "label": "已提交修订", "tone": "processing", "symbol": "arrow-return" },
+    "accepted": { "label": "已接收", "tone": "success", "symbol": "check" },
+    "rejected": { "label": "已拒稿", "tone": "danger", "symbol": "minus-circle" },
+    "withdrawn": { "label": "已撤稿", "tone": "neutral", "symbol": "undo" }
+  },
+  "deadlineStates": {
+    "upcoming": { "label": "待跟进", "tone": "neutral", "symbol": "calendar" },
+    "overdue": { "label": "已过期", "tone": "warning", "symbol": "warning" },
+    "completed": { "label": "已完成", "tone": "success", "symbol": "check" }
+  }
+}

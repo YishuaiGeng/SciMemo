@@ -1,0 +1,3 @@
+PASS: live SQLite backup, integrity check, restore to a new file with rotated server ID.
+PASS: native initial SQL schema executed with SQLite and rejected invalid document kind.
+NOTE: this checks SQL syntax/constraints, not Rust compilation or Tauri IPC.

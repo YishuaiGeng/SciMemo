@@ -1,0 +1,16 @@
+name: Feature request
+description: Describe a concrete record-keeping workflow
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 你要解决的具体记录场景
+    validations:
+      required: true
+  - type: textarea
+    id: minimum
+    attributes:
+      label: 最小可用方案及不应扩大的范围
+    validations:
+      required: true
